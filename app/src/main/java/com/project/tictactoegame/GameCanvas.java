@@ -41,16 +41,16 @@ public class GameCanvas extends AppCompatActivity {
     public void playerTap(View view) {
         changePlayerTurn(view);
         checkWin();
+        if (count == 9) {
+            drawGame();
+            return;
+        }
     }
 
     public void changePlayerTurn(View view) {
         imageView = (ImageView) view;
         String position = (String) view.getTag();
         if (bufferArray[Integer.parseInt(position)] != 2) return;
-        if (count == 9) {
-            drawGame();
-            return;
-        }
         if (turn == 0) {
             imageView.setImageResource(R.drawable.x);
             bufferArray[Integer.parseInt(position)] = 0;
