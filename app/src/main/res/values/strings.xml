@@ -4,4 +4,15 @@
     <string name="start">Start</string>
     <string name="exit_game">Exit Game</string>
     <string name="restart">Restart</string>
+    <string name="x_won">X won :</string>
+    <string name="_00">\ 00</string>
+    <string name="o_won">O won :\ </string>
+    <string name="draw">Draw :</string>
+    <string name="you_vs_computer">You vs Computer</string>
+    <string name="two_player">Two player</string>
+    <string name="vs_cpu">Vs CPU</string>
+    <string name="_2_players">2 Players</string>
+    <string name="home">Home</string>
+    <string name="what_you_choose">what you choose?</string>
+    <string name="coming_soon">Coming soon...</string>
 </resources>

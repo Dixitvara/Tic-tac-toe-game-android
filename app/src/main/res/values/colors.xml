@@ -6,4 +6,6 @@
     <color name="green">#508D4E</color>
     <color name="green2">#80AF81</color>
     <color name="green3">#D6EFD8</color>
+    <color name="canvasBg">#e6eb90</color>
+    <color name="gray">#DCDCDC</color>
 </resources>

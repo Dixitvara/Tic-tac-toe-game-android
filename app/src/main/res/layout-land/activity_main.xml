@@ -10,17 +10,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_30sdp"
-        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
         android:gravity="center"
         android:text="@string/tic_tac_toe"
-        android:textSize="@dimen/_30ssp"
+        android:textSize="@dimen/_25ssp"
 
         />
 
     <ImageView
-        android:layout_width="@dimen/_100sdp"
-        android:layout_height="@dimen/_100sdp"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
         android:layout_gravity="center"
         android:src="@drawable/ttt_logo"
 
@@ -29,21 +29,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:gravity="center"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_50sdp"
             android:gravity="center"
+            android:layout_marginEnd="@dimen/_50sdp"
             android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/vsCpu"
-                android:layout_width="@dimen/_70sdp"
-                android:layout_height="@dimen/_70sdp"
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="@dimen/_55sdp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
                 android:src="@drawable/robot"
@@ -65,8 +65,8 @@
 
             <ImageButton
                 android:id="@+id/twoPlayer"
-                android:layout_width="@dimen/_70sdp"
-                android:layout_height="@dimen/_70sdp"
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="@dimen/_55sdp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
                 android:src="@drawable/two_player"
@@ -81,5 +81,7 @@
 
                 />
         </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>
